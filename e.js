@@ -113,3 +113,57 @@ for (let i = 0; i < 5; i++){
 }
 
 // Exercicio 14
+let numeross = [75,39,24,60,10]
+let maior = 0
+for (let i = 0; i < numeross.length; i++){
+    if (numeross[i] > maior)
+        {
+            maior = numeross[i]
+        }
+}
+console.log(maior);
+
+// Exercicio 15
+let numeros2 = [75,39,24,60,10]
+let menor = 10
+for (let i = 0; i > numeros2.length; i++){
+    if (numeros2[i] > menor)
+        {
+            menor = numeross[i]
+        }
+}
+console.log(menor);
+
+// Exercicio 16
+n = 10
+let fatorial = 1
+for (let i = 1; i<=n; i++){
+    fatorial *= i
+}
+console.log(fatorial);
+
+// Exercicio 17
+n = 10
+for (i=1; i<=n; i++){
+    if(i % 2 == 0){
+        console.log(i, ' é par ');
+      } else {
+    console.log(i, ' é impar ');
+}
+}
+
+// Exercicio 18
+let texto = "Fala pessoal do partido bolsonaro", fala = 0, vogais = ["a", "e", "i", "o",  "u"]
+for (i=0; i < texto.length; i++) {
+    if(vogais.includes(texto[i])){
+        fala++
+    }
+}
+console.log(fala)
+
+// Exercicio 19
+let textto = "Fortnite é o melhor jogo", resultado = ""
+for(i = texto.length-1; i>0; i--){
+    resultado += (texto[i])
+}
+console.log('Texto invertido: ', resultado);
